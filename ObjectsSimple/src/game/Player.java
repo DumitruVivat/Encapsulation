@@ -65,7 +65,6 @@ class Player {
 		this.alive = alive;
 	}
 	public void printInfo(String nameClass) {
-		
 		System.out.println("######################"+ nameClass +"######################");
 		System.out.printf( "%18s %3dHP %5dPOINTS    %s\n", name, hp, score, alive?"ok":"X"); //HW1: alive -> ok, dead -> X;
 		System.out.println("###################################################");
