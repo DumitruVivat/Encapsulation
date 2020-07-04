@@ -1,4 +1,4 @@
-package ObjectsAndEcapsulation;
+package ObjectsAndEncapsulation;
 
 public class EncapsulationSimpleApp {
 

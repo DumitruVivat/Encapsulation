@@ -1,4 +1,4 @@
-package ObjectsAndEcapsulation;
+package ObjectsAndEncapsulation;
 
 import java.util.Random;
 
@@ -47,13 +47,14 @@ class Player {
 		} else {
 			this.name = name;
 			if(playerName.contains(this.name)) {
-			Random suffix = new Random();
-			int number = suffix.nextInt(1000);
-			
-			this.name = name + "_" + String.format("%04d", number);
+				Random suffix = new Random();
+				int number = suffix.nextInt(1000);
+				
+				this.name = name + "_" + String.format("%04d", number);
 			}
-			playerName = this.name;
-		} 
+				playerName = this.name;
+		}
+		
        
 	}
 	
